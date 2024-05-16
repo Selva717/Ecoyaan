@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.smooth-transition:hover {
+  transition-property: font;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+  
+}
+.mobile-svg{
+  width:35px;
+  height: 35px;
+  cursor: pointer;;
+}
+
+.horizontal-line {
+  @apply w-full h-px bg-gray-300 my-4;
+}
+
